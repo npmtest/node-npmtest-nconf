@@ -1,6 +1,6 @@
 # npmtest-nconf
 
-#### test coverage for  [nconf (v0.8.4)](https://github.com/flatiron/nconf#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nconf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nconf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nconf.svg)](https://travis-ci.org/npmtest/node-npmtest-nconf)
+#### basic test coverage for  [nconf (v0.8.4)](https://github.com/flatiron/nconf#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nconf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nconf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nconf.svg)](https://travis-ci.org/npmtest/node-npmtest-nconf)
 
 #### Hierarchical node.js configuration with files, environment variables, command-line arguments, and atomic object merging.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-nconf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-nconf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-nconf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-nconf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nconf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nconf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-nconf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-nconf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nconf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nconf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-nconf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-nconf/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
         "coveralls": "cat coverage/lcov.info | coveralls",
         "test": "vows test/*-test.js test/**/*-test.js --spec"
     },
-    "version": "0.8.4"
+    "version": "0.8.4",
+    "bin": {}
 }
 ```
 
